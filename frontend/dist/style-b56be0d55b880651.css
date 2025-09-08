@@ -1,0 +1,21 @@
+/* Import Tailwind CSS */
+@import url('https://cdn.tailwindcss.com');
+
+/* Additional custom styles if needed */
+.piano-key-transition {
+    transition: background-color 0.1s ease-in-out;
+}
+
+/* Ensure proper z-index for black keys */
+.black-key {
+    z-index: 10;
+}
+
+/* Custom focus and hover states */
+.piano-key:hover {
+    opacity: 0.9;
+}
+
+.piano-key:active {
+    transform: translateY(1px);
+}
