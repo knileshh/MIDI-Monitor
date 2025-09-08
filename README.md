@@ -2,6 +2,12 @@
 
 A cross-platform desktop application built with Rust, Leptos, and Tauri that monitors MIDI input in real-time and displays it on a virtual piano interface.
 
+## Demo
+
+![MIDI Monitor Demo](demo.gif)
+
+*Real-time MIDI monitoring with virtual piano interface*
+
 ## Features
 
 - **Real-time MIDI monitoring**: Connects to MIDI input devices and displays events live
