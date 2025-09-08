@@ -2,6 +2,9 @@
 name = "midi-frontend"
 version = "0.1.0"
 edition = "2021"
+authors = ["Nilesh Kumar"]
+license = "MIT"
+description = "MIDI monitoring frontend with virtual piano interface"
 
 [dependencies]
 leptos = { version = "0.6", features = ["csr"] }
